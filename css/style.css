@@ -1,0 +1,192 @@
+/*-------------------------------------------------------------------- GENERAL --*/
+*{
+    font-family: "calibri";
+}
+
+body {
+    font-family: sans-serif;
+}
+/*--------------------------------------------------------------------- HEADER --*/
+{
+background: linear-gradient(to right, #fff , #eaeaea);
+}
+.search-box .fa-search {
+    margin-left: -25px;
+}
+.search-box input {
+    padding: 10px;
+    font-size: 15px;
+}
+header span {
+    position: relative;
+    bottom: 17px;
+    left: 50px;
+    color: #ccc;
+    font-size: 12px;
+}
+.search-box {
+    margin-top: 3px;
+}
+
+
+}
+/*----------------------------------------------------------------------- HERO --*/
+.estrenos img {
+    width: 100%;
+}
+
+.hero .banner {
+    background: #393939 url(../img/banner.jpg) no-repeat;
+    background-size: contain;
+    width:  108% ;
+}
+.icon{
+    position: relative;
+    top:230px;
+    left: 230px;  
+    
+}
+
+.line{
+    width: 70%;
+}
+
+.movie-info {
+    padding-top: 30px;
+    color: #e3e3e3;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+.movie-info h1 {
+    font-size: 30px;
+    font-family: Arimo;
+    margin-bottom: 20px;
+}
+.movie-info span {
+    background: none;
+    border: 2px solid #37ff37;
+    border-radius: 10px;
+    color: #37ff37;
+    display: inline-block;
+    padding: 14px;
+    font-weight: bold;
+}
+.movie-info span:hover {
+    background: #37ff37;
+    border: 2px solid green;
+    color: #333;
+}
+.movie-info hr {
+    margin-bottom: 20px;
+}
+.movie-info table {
+    margin: 15px 0px;
+    text-align: left;
+}
+.movie-info table td {
+    padding-left: 80px;
+    padding-bottom: 12px;
+}
+.movie-info input {
+    background: #e2af07;
+}
+.movie-info button {
+    background: #d17901;
+}
+.movie-info input, button {
+    padding: 15px 15px 15px 30px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 160px;
+    display: inline-block;
+}
+.movie-info .fa-youtube-play, .fa-ticket {
+    display: inline-block;
+    margin-left: -145px;
+    color: #fff;
+    font-size: inherit;
+}
+/*------------------------------------------------------------------- ESTRENOS --*/
+.estrenos .fondoye  {
+    background: #e8c83f;
+    width: 108%;
+    
+}
+
+.fondo{
+    padding:2%;
+    background-color: #e8c83f;
+}
+
+
+.estrenos img {
+    
+    
+    height: 250px;
+}
+/*------------------------------------------------------------------ CONTENIDO --*/
+.left small {
+    color: #747373;
+}
+.contenido button {
+    background: #cc8d00;
+    border: 1px solid #cc8d00;
+    border-radius: 3px;
+    color: #FFF;
+    padding: 18px 18px 18px 23px;
+    margin-bottom: 15px;
+}
+.contenido button:hover {
+    background: #FFF;
+    border: 1px solid #cc8d00;
+    color: #cc8d00;
+}
+.contenido .left{
+    margin-left: 0;
+}
+
+
+ul li{
+    list-style: none;
+    margin:40px 10px;
+}
+ul li h4{
+    font-size: 15px;
+    
+}
+
+h3, p, .fecha, .txt{
+    color: #D3D3D3;
+    font-size: 15px;
+}
+
+
+
+#nem{
+    color: #cc8d00;
+}
+
+
+p a{
+    text-decoration:none;
+    color:#cc8d00;
+}
+
+
+/*------------------------------------------------------------------ CARTELERA --*/
+.cartelera img {
+    width: 290px;
+    height: 300px;
+    margin-top:30px;    
+}
+
+/*-------------------------------------------------------------------------- FOOTER --*/
+footer {
+    background: #e5e5e5;
+    margin:20px 0 0 0;
+    padding: 20px 0;
+}
+

@@ -1,0 +1,36 @@
+body{
+/*changing background color*/
+ background-color:#ebebeb;
+}
+.searchbox{
+/*definint width of form element*/
+ width:350px;
+/*centering the form element*/
+ margin:100px auto;
+}
+
+input[type="search"]{
+ padding:10px 15px 10px 50px;
+ font-size:36px;
+ color:#1f5350;
+/*removing boder from search box*/
+ border:none;
+/*defining background image as a search symbol*/
+ background-image:url(img/search-btn.png);
+ background-repeat:no-repeat;
+/*background-size*/
+-webkit-background-size:35px 35px;
+ -moz-background-size:35px 35px;
+ -o-background-size:35px 35px;
+ background-size:35px 35px;
+/*positioning background image*/
+ background-position:8px 12px;
+/*changing background color form white*/
+ background-color:#7accc8;
+}
+ 
+/*now using placeholder property to change color of placholder text and making it consitent accross the browser by use of prefix*/
+ 
+input[type="search"]::-webkit-input-placeholder{
+ color:#b1e0de;
+}
